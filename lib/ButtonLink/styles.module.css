@@ -1,0 +1,3 @@
+.buttonLink {
+  @apply block max-w-[30rem] rounded-full bg-brown p-[1rem] text-center text-[1rem] font-medium leading-none text-primary transition-all hover:scale-105 hover:bg-brown;
+}
