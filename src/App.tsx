@@ -1,4 +1,4 @@
-import { Button } from '../lib/main';
+import { Button } from 'test-library';
 
 function App() {
   return (
