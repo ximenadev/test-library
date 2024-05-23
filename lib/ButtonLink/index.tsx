@@ -16,7 +16,7 @@ export const ButtonLink: FC<ButtonLinkProps> = ({ text, href, width, component }
       component={component} //Expects NextLink component to get the benefits of Next.js routing
       underline="none"
       sx={{
-        width: width ? `${width}px` : '100%',
+        width: width ? `${width}px` : '100px',
       }}
       className={styles.buttonLink}
     >
