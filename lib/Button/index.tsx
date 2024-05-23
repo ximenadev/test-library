@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Button as MUIButton } from '@mui/material';
-import styles from './styles.module.css';
+import customStyles from './styles.module.css';
 
 interface ButtonProps {
   text: string;
@@ -21,7 +21,7 @@ export const Button: FC<ButtonProps> = ({
       sx={{
         width: width ? `${width}px` : '100%',
       }}
-      className={`${outlined ? styles.buttonOutlined : styles.button}`}
+      className={`${outlined ? customStyles.buttonOutlined : customStyles.button}`}
     >
       {text}
     </MUIButton>

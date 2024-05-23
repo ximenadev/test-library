@@ -1,6 +1,6 @@
 import { ElementType, FC } from 'react';
 import { Link } from '@mui/material';
-import styles from './styles.module.css';
+import customStyles from './styles.module.css';
 
 interface ButtonLinkProps {
   text: string;
@@ -9,7 +9,12 @@ interface ButtonLinkProps {
   component: ElementType;
 }
 
-export const ButtonLink: FC<ButtonLinkProps> = ({ text, href, width, component }) => {
+export const ButtonLink: FC<ButtonLinkProps> = ({
+  text,
+  href,
+  width,
+  component,
+}) => {
   return (
     <Link
       href={href}
@@ -18,7 +23,7 @@ export const ButtonLink: FC<ButtonLinkProps> = ({ text, href, width, component }
       sx={{
         width: width ? `${width}px` : '100px',
       }}
-      className={styles.buttonLink}
+      className={customStyles.buttonLink}
     >
       {text}
     </Link>
