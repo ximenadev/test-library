@@ -1,3 +1,7 @@
 .button {
-  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  @apply max-w-[30rem] rounded-full bg-brown p-[1rem] text-center text-[1rem] font-medium normal-case leading-none text-primary transition-all hover:scale-105 hover:bg-brown;
+}
+
+.buttonOutlined {
+  @apply max-w-[30rem] rounded-full border border-solid border-primary bg-white p-[1rem] text-center text-[1rem] font-medium normal-case leading-none text-primary transition-all hover:scale-105 hover:bg-white;
 }
