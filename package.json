@@ -11,7 +11,8 @@
 		".": {
 			"import": "./dist/test-library.js",
 			"require": "./dist/test-library.umd.cjs"
-		}
+		},
+    "./dist/style.css": "./dist/style.css"
 	},
   "scripts": {
     "dev": "vite",
