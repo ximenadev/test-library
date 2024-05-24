@@ -1,3 +1,3 @@
 .buttonLink {
-  @apply tw-block tw-max-w-[30rem] tw-rounded-full tw-bg-brown tw-p-[1rem] tw-text-center tw-text-[1rem] tw-font-medium tw-leading-none tw-text-primary tw-transition-all hover:tw-scale-105 hover:tw-bg-brown;
+  @apply block max-w-[30rem] rounded-full bg-brown p-[1rem] text-center text-[1rem] font-medium leading-none text-primary transition-all hover:scale-105 hover:bg-brown;
 }

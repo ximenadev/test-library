@@ -1,7 +1,7 @@
 .button {
-  @apply tw-max-w-[30rem] tw-rounded-full tw-bg-brown tw-p-[1rem] tw-text-center tw-text-[1rem] tw-font-medium tw-normal-case tw-leading-none tw-text-primary tw-transition-all hover:tw-scale-105 hover:tw-bg-brown;
+  @apply max-w-[30rem] rounded-full bg-brown p-[1rem] text-center text-[1rem] font-medium normal-case leading-none text-primary transition-all hover:scale-105 hover:bg-brown;
 }
 
 .buttonOutlined {
-  @apply tw-max-w-[30rem] tw-rounded-full tw-border tw-border-solid tw-border-primary tw-bg-white tw-p-[1rem] tw-text-center tw-text-[1rem] tw-font-medium tw-normal-case tw-leading-none tw-text-primary tw-transition-all hover:tw-scale-105 hover:tw-bg-white;
+  @apply max-w-[30rem] rounded-full border border-solid border-primary bg-white p-[1rem] text-center text-[1rem] font-medium normal-case leading-none text-primary transition-all hover:scale-105 hover:bg-white;
 }
