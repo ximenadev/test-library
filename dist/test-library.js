@@ -5223,15 +5223,20 @@ process.env.NODE_ENV !== "production" && (lo.propTypes = {
 const Wc = "_button_5dqcd_1", Uc = "_buttonOutlined_5dqcd_5", gn = {
   button: Wc,
   buttonOutlined: Uc
-}, Zc = (e, { children: t, width: r, outlined: n = !1, addedStyles: o = "" }) => /* @__PURE__ */ me(
+}, Zc = ({
+  text: e,
+  onClick: t,
+  width: r,
+  outlined: n = !1
+}) => /* @__PURE__ */ me(
   co,
   {
-    ...e,
+    onClick: t,
     sx: {
       width: r ? `${r}px` : "100%"
     },
-    className: `${n ? gn.buttonOutlined : gn.button} ${o}`,
-    children: t
+    className: `${n ? gn.buttonOutlined : gn.button}`,
+    children: e
   }
 ), qc = "_buttonLink_1mhii_1", Yc = {
   buttonLink: qc
