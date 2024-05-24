@@ -12,7 +12,8 @@ export default defineConfig({
 			fileName: "test-library",
 		},
 		rollupOptions: {
-			external: ["react", "react-dom", "react/jsx-runtime"],
+			external: ["react", "react-dom", "react/jsx-runtime", '@emotion/react',
+			'@emotion/styled'],
 			output: {
 				// intro: "import customStyles from './styles.module.css'",
 				globals: {
