@@ -4,6 +4,7 @@ export default {
     preflight: false,
   },
   important: '#root',
+  prefix: 'tw-',
   content: [
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
