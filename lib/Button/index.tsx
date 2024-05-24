@@ -1,9 +1,9 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import { Button as MUIButton } from '@mui/material';
-import styles from './styles.module.css';
+import customStyles from './styles.module.css';
 
 interface ButtonProps {
-  text: string;
+  children: ReactNode;
   width?: number;
   outlined?: boolean;
   addedStyles?: string;
@@ -11,7 +11,7 @@ interface ButtonProps {
 
 export const Button: FC<ButtonProps> = (
   props,
-  { text, width, outlined = false, addedStyles = '' },
+  { children, width, outlined = false, addedStyles = '' },
 ) => {
   return (
     <MUIButton
@@ -19,9 +19,9 @@ export const Button: FC<ButtonProps> = (
       sx={{
         width: width ? `${width}px` : '100%',
       }}
-      className={`${outlined ? styles.buttonOutlined : styles.button} ${addedStyles}`}
+      className={`${outlined ? customStyles.buttonOutlined : customStyles.button} ${addedStyles}`}
     >
-      {text}
+      {children}
     </MUIButton>
   );
 };

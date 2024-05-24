@@ -5223,12 +5223,7 @@ process.env.NODE_ENV !== "production" && (lo.propTypes = {
 const Wc = "_button_5dqcd_1", Uc = "_buttonOutlined_5dqcd_5", gn = {
   button: Wc,
   buttonOutlined: Uc
-}, Zc = (e, {
-  text: t,
-  width: r,
-  outlined: n = !1,
-  addedStyles: o = ""
-}) => /* @__PURE__ */ me(
+}, Zc = (e, { children: t, width: r, outlined: n = !1, addedStyles: o = "" }) => /* @__PURE__ */ me(
   co,
   {
     ...e,
