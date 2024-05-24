@@ -15,7 +15,6 @@ export default defineConfig({
 			external: ["react", "react-dom", "react/jsx-runtime", '@emotion/react',
 			'@emotion/styled'],
 			output: {
-				// intro: "import customStyles from './styles.module.css'",
 				globals: {
 					react: "React",
 					"react-dom": "ReactDOM",

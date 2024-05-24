@@ -1,12 +1,5 @@
-import { Button } from 'test-library';
-
 function App() {
-  return (
-    <div>
-      Test Library
-      <Button text="Hi" onClick={() => console.log('Hi')} />
-    </div>
-  );
+  return <div>Test Library</div>;
 }
 
 export default App;
